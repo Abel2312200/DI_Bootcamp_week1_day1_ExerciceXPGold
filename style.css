@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/*======= GENERAL STYLE ===========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
+}
+
+.sign {
+    background-color: #007DFF;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+/*========= HEADER ==============*/
+
+header {
+    position: flex;
+    height: 60px;
+    padding: 20px 150px 0px 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-name {
+    float: left;
+    color: #878888;
+    font-weight: 500;
+    top: 50%;
+}
+
+.sign-in {
+    float: right;
+    top: 70%;
+}
+
+/*========= Main Container ==========*/
+
+.banner {
+    position: relative;
+}
+
+/*======= banner image =============*/
+
+.content-banner {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(banner-image.jpg);
+    background-size: cover;
+}
+
+
+
+.presentation {
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.presentation p {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.presentation input[type=text] {
+    width: 300px;
+    height: 30px;
+    padding-left: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+/*=========== DESCRIPTION CONTENT =============*/
+
+.description {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.description-item {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description-margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.description-item i {
+    color: #007DFF;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.description h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: #373D3D;
+    margin-bottom: 10px;
+}
+.description p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #ACAEAF;
+    margin-bottom: 10px;
+}
